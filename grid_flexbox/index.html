@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../common/css/reset.css">
+  <link rel="stylesheet" href="../common/css/common.css">
+  <link rel="stylesheet" href="../common/highlight/default.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="../common/highlight/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>Document</title>
+  <style>
+      .flex--min{display: flex; border: 3px solid #333; width: 400px;}
+      .flex--min li:nth-child(1){flex: 0 0 50px; background-color: #fc7;}
+      .flex--min li:nth-child(2){flex: 0 0 100px; background-color: #f00;}
+      .flex--min li:nth-child(3){flex: 0 0 150px; background-color: #58a;}
+      .flex--min li:nth-child(4){flex: 0 0 200px; background-color: #6be;}
+    
+      .flex--over{display: flex; border: 3px solid #333; width: 1000px;}
+      .flex--over li:nth-child(1){flex: 0 0 50px; background-color: #fc7;}
+      .flex--over li:nth-child(2){flex: 0 0 100px; background-color: #f00;}
+      .flex--over li:nth-child(3){flex: 0 0 150px; background-color: #58a;}
+      .flex--over li:nth-child(4){flex: 0 0 200px; background-color: #6be;}
+      </style>
+</head>
+<body>
+  <h1 class="headline">Flexible Box Layout</h1>
+  <p>伸長比と縮小比が0の場合</p>
+  <ul class="flex--min">
+    <li><a href="">aaa</a></li>
+    <li><a href="">iii</a></li>
+    <li><a href="">uuu</a></li>
+    <li><a href="">eee</a></li>
+  </ul>
+  <ul class="flex--over">
+      <li><a href="">aaa</a></li>
+      <li><a href="">iii</a></li>
+      <li><a href="">uuu</a></li>
+      <li><a href="">eee</a></li>
+    </ul>
+</body>
+</html>

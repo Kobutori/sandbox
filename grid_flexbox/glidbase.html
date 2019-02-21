@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../common/css/reset.css">
+  <link rel="stylesheet" href="../common/css/common.css">
+  <link rel="stylesheet" href="../common/highlight/monokai-sublime.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="../common/highlight/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>Document</title>
+  <style>
+  .grid-wrap{
+    display: grid;
+    grid-template-areas: 
+      "head head head"
+      "side1 main side2"
+      "foot foot foot";
+    grid-template-columns: 1fr 5fr 200px;
+    grid-template-rows: auto auto auto;
+  }
+  .header{grid-area: head; background-color: #FFB900;}
+  .menu{grid-area: side1; background-color: #E74856;}
+  .content{grid-area: main; background-color: #0078D7;}
+  .bnr{grid-area: side2; background-color: #881798;}
+  .footer{grid-area: foot; background-color: #0099BC;}
+  </style>
+</head>
+<body>
+<h1 class="headline">エリアベースのグリッド作成</h1>
+  <div class="grid-wrap">
+  <header class="header"> .header</header>
+    <nav class="menu">.menu</nav>
+    <main class="content">
+        <article class="kiji">
+          <h1 class="headline">.content</h1>
+          <p>ベースのグリッドを配置していきます。</p>
+        </article>
+    </main>
+    <aside class="bnr">.bnr</aside>
+  <footer class="footer">.footer</footer>
+  </div>
+
+  <pre>
+    <code class="css">
+  .grid-wrap{
+    display: grid;
+    grid-template-areas: 
+      "head head head"
+      "side1 main side2"
+      "foot foot foot";
+    grid-template-columns: 1fr 5fr 200px;
+    grid-template-rows: auto auto auto;
+  }
+
+  .header{grid-area: head; background-color: #FFB900;}
+  .menu{grid-area: side1; background-color: #E74856;}
+  .content{grid-area: main; background-color: #0078D7;}
+  .bnr{grid-area: side2; background-color: #881798;}
+  .footer{grid-area: foot; background-color: #0099BC;}
+
+</code>
+</pre>
+<h2>エリアベースのグリッドを作成するプロパティ</h2>
+<p>grid-template-areas:グリッドを構成するエリア名を指定</p>
+<p>grid-template-columns:グリッドの各列の横幅を指定</p>
+<p>grid-template-rows:グリッドの各業の高さを指定</p>
+
+<h2>グリッドアイテムの配置先を指定するプロパティ</h2>
+<p>grid-area:配置先のエリア名を指定</p>
+
+
+<div class="grid-wrap">
+
+
+</div>
+
+
+</body>
+</html>
