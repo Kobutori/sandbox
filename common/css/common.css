@@ -69,6 +69,7 @@ h3 {
   }
   .content_wrap{
     max-width: 1100px;
+    margin: 20px auto;
     padding: 20px;
   }
   .footer{
@@ -149,6 +150,36 @@ border-left: solid 5px #7db4e6;
 .socialnetwork i{
     margin-right: 5px;
 }
+
+
+/*
+Gist埋め込み用
+*/
+.gist{
+    margin: 40px 0;
+}
+  /* コード領域の下枠線削除 */
+  .gist-file {
+    border-bottom: none !important;
+  }
+  .gist * {
+    font-size: 14px !important;
+  }
+  .gist * {
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace !important;
+  }
+  .gist .highlight{
+      width: 100%;
+  }
+/* コードエリアの上部の余白を開ける */
+.gist tr:first-child td {
+    padding-top: 15px !important;
+  }
+  /* コードエリアの下部の余白を開ける */
+  .gist tr:last-child td {
+    padding-bottom: 15px !important;
+  }
+
 
 /* SP横
 ------------------------------ */
