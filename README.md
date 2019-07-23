@@ -4,8 +4,9 @@
 
 |ページ説明|URL|
 |:---|:---|
-| TOP | https://kobutori.github.io/sandbox |
-| [CSS]エリアグリッドサンプル | https://kobutori.github.io/sandbox/grid_area_base |
-| [CSS]ライングリッドサンプル | https://kobutori.github.io/sandbox/grid_line_base |
-| [CSS]flexboxサンプル | https://kobutori.github.io/sandbox/grid_flexbox |
-| [JS]IFrame Player APIサンプル | https://kobutori.github.io/sandbox/youtube_sample |
+| TOP | https://kobutori-sandbox.netlify.com |
+| [CSS]エリアグリッドサンプル | https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_area_base |
+| [CSS]ライングリッドサンプル | https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_line_base |
+| [CSS]flexboxサンプル | https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_flexbox |
+| [JS]IFrame Player APIサンプル | https://kobutori-sandbox.netlify.com/003_js-sandbox/youtube_sample |
+| [sandbox]エリアグリッドサンプル | https://kobutori-sandbox.netlify.com/001_codegrid-sandbox/drawer_menu |
