@@ -9,4 +9,4 @@
 | [CSS]ライングリッドサンプル | https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_line_base |
 | [CSS]flexboxサンプル | https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_flexbox |
 | [JS]IFrame Player APIサンプル | https://kobutori-sandbox.netlify.com/003_js-sandbox/youtube_sample |
-| [sandbox]ドロワーメニューサンプル | https://kobutori-sandbox.netlify.com/001_codegrid-sandbox/drawer_menu |
+| [js]ドロワーメニューサンプル | https://kobutori-sandbox.netlify.com/003_js-sandbox/jquery_drawrmenu/ |
