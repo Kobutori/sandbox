@@ -35,7 +35,15 @@
     width: 280px;
     background-color: #f00;
   }
-  
+  .header-logo{
+    text-align: center;
+    padding: 20px 0;
+  }
+  .header-button{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+  }
   .nav {
     overflow: auto;
   }
@@ -80,5 +88,5 @@
   }
   
   .drawer[aria-expanded="false"] .drawer-nav {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
