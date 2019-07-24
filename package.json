@@ -1,0 +1,25 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "サンドボックス用リポジトリです。CSS/JSなどで試してみたくなったものを作ってみます。\r ポートフォリオ用にソース貯めていきます。",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "browser-sync start --server --files='./*.html, ./*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kobutori/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kobutori/sandbox/issues"
+  },
+  "homepage": "https://github.com/Kobutori/sandbox#readme"
+}
