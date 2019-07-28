@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/common/css/reset.css">
+  <link rel="stylesheet" href="/common/css/common.css">
+  <link rel="stylesheet" href="/common/highlight/default.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="/common/highlight/highlight.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .header1{background-color: #f00;width: 100vw;height: 100vh;}
+    .globalHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 11;
+    position: fixed;
+    top: 30px;
+    background: #ED8570;
+    border-radius: 5px;
+
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: opacity 0.6s, -webkit-transform 1s;
+    transition: opacity 0.6s, -webkit-transform 1s;
+    transition: transform 1s, opacity 0.6s;
+    transition: transform 1s, opacity 0.6s, -webkit-transform 1s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    }
+  </style>
+  <header class="header1">
+    <nav class="globalHeader">
+      <h1>ロゴ</h1>
+      <ul>
+        <li>テスト</li>
+        <li>テスト</li>
+        <li>テスト</li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+</body>
+</html>
