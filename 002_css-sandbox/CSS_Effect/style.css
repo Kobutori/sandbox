@@ -17,8 +17,8 @@
     border-radius: 50% 50%;
   }
   .circle1::before {
-    -webkit-animation: ball-scale 3000ms ease-in-out infinite 600ms;
-    animation: ball-scale 3000ms ease-in-out infinite 600ms;
+    -webkit-animation: ball-scale 1000ms ease-in-out infinite 600ms;
+    animation: ball-scale 1000ms ease-in-out infinite 600ms;
   }
 
 /* keyframes */
