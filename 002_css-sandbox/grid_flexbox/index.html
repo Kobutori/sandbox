@@ -11,24 +11,24 @@
   <script src="/common/highlight/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <title>Document</title>
-  <style>
-      .flex--min{display: flex; border: 3px solid #333; width: 400px;}
-      .flex--min li:nth-child(1){flex: 0 0 50px; background-color: #fc7;}
-      .flex--min li:nth-child(2){flex: 0 0 100px; background-color: #f00;}
-      .flex--min li:nth-child(3){flex: 0 0 150px; background-color: #58a;}
-      .flex--min li:nth-child(4){flex: 0 0 200px; background-color: #6be;}
-    
-      .flex--over{display: flex; border: 3px solid #333; width: 1000px;}
-      .flex--over li:nth-child(1){flex: 0 0 50px; background-color: #fc7;}
-      .flex--over li:nth-child(2){flex: 0 0 100px; background-color: #f00;}
-      .flex--over li:nth-child(3){flex: 0 0 150px; background-color: #58a;}
-      .flex--over li:nth-child(4){flex: 0 0 200px; background-color: #6be;}
-      </style>
 </head>
 <body>
   <header class="header">Sandbox-HtmlTemplates</header>
   <main class="content_wrap">
     <h1 class="headline">Flexible Box Layout</h1>
+    <h2 id="a1">フレキシブルボックスレイアウトについて</h2>
+    <p>フレキシブルボックスレイアウトは子要素を並べることができる</p>
+    <style>
+
+    </style>
+    <section class="flex">
+      <div class="boxA">boxA</div>
+      <div class="boxB">boxB</div>
+      <div class="boxC">boxC</div>
+      <div class="boxD">boxD</div>
+    </section>
+    <script src="https://gist.github.com/Kobutori/158cb5c3d350d9816101d7b07557a451.js"></script>
+    <hr>
     <p>伸長比と縮小比が0の場合</p>
     <ul class="flex--min">
       <li><a href="">aaa</a></li>
