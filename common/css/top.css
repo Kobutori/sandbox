@@ -1,0 +1,111 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(/common/image/top.jpg)#000 no-repeat;
+    background-size: cover;
+  }
+  .siteTitle{
+    width: 100%;
+    font-size: 10rem;
+    -webkit-text-stroke: 5px #FFF;
+    text-stroke: 5px #FFF;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+  }
+  .siteTitle span:nth-child(1) {color: #d9a62a;}
+.siteTitle span:nth-child(2) {color: #b44c97;}
+.siteTitle span:nth-child(3) {color: #7058a3;}
+.siteTitle span:nth-child(4) {color: #5383c3;}
+.siteTitle span:nth-child(5) {color: #b0ca71;}
+.siteTitle span:nth-child(6) {color: #bb5520;}
+.siteTitle span:nth-child(7) {color: #d9a62a;}
+.siteTitle span:nth-child(8) {color: #b44c97;}
+.siteTitle span:nth-child(9) {color: #7058a3;}
+.siteTitle span:nth-child(10) {color: #5383c3;}
+.siteTitle span:nth-child(11) {color: #b0ca71;}
+.siteTitle span:nth-child(12) {color: #bb5520;}
+.siteTitle span:nth-child(13) {color: #d9a62a;}
+.siteTitle span:nth-child(14) {color: #b44c97;}
+.siteTitle span:nth-child(15) {color: #7058a3;}
+.siteTitle span:nth-child(16) {color: #5383c3;}
+.siteTitle span:nth-child(17) {color: #b0ca71;}
+.siteTitle span:nth-child(18) {color: #bb5520;}
+.socialnetwork{
+  position: absolute;
+  bottom: 20%;
+    left: 50%;
+    -webkit-transform:translateX(-50%);
+    transform: translateX(-50%); 
+}
+.socialnetwork .btn{
+  display: block;
+}
+.socialnetwork .btn a{
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+.btn.-twitter a{background-color: #3BA1F3;color: #fff; text-decoration: none;}
+.btn.-github a{background-color: #D8D8D8; #fff;color:#333; text-decoration: none;}
+
+.flex{
+    display: flex;
+}
+.tys{
+    width: 100%;
+}
+.tys div{
+    width: 25%;
+    text-align: center;
+}
+.tys i{
+    font-size: 250px;
+    text-align: center;
+}
+/*テーブル*/
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+  }
+  table{
+    width: 100%;
+  }
+  table th {
+    width: 20%;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    background: #3f3f3f;
+    color: #ffffff;
+  }
+  table td {
+    width: auto;
+    padding: 10px;
+    vertical-align: top;
+  }
+  table td.link{
+      width: 3em;
+  }
+  
+  tr:nth-child(even) {
+    background: #d9d9d9;
+  }
+/* SP横
+------------------------------ */
+@media screen and (max-width:600px) { 
+
+}
+    
+/* タブレット
+------------------------------ */
+@media screen and (min-width:600px) and (max-width:959px) {
+
+}
+
+/* PC
+------------------------------ */
+@media screen and (min-width:960px) {
+}
