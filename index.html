@@ -10,9 +10,41 @@
   <title>58Lab.net</title>
 </head> 
 
-
 <body>
-  <header class="">
+  <style>
+  .heading21 {
+    position: relative;
+    font-size: 26px;
+    color: #5383c3;
+  }
+
+  .heading21 span {
+    position: relative;
+    z-index: 2;
+  }
+  .heading21::before {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-image: repeating-linear-gradient(-45deg, #b4a983 0px, #b4a983 2px, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%);
+    background-size: 10px 10px;
+    z-index: 1;
+  }
+  .heading21::after {
+    content: attr(data-en);
+    position: relative;
+    margin-left: 20px;
+    font-size: 16px;
+    z-index: 2;
+  }
+  i::before{
+    font-size: .5em;
+  }
+  </style>
+  <header class="mv">
     <h1 class="siteTitle">kobutori SandBox</h1>
     <ul class="socialnetwork">
       <li class="btn -twitter"><a href="https://twitter.com/kobutorinahato" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
@@ -22,13 +54,13 @@
   <main class="grid__main content_wrap">
     <article>
       <section>
-        <h1>Kobutori Sandboxについて</h1>
-        <p>@KobutorinaHato が日常で試したコードなどをストック・備忘録的に使用できるようにしたサイトです。</p>
+        <h1 class="heading21">About</h1>
+        <p><a href="https://github.com/Kobutori" target="_blank">@KobutorinaHato</a> が日常で試したコードなどをストック・備忘録的に使用できるようにしたサイトです。</p>
       </section>
       <section>
-        <h1>Thank You Service</h1>
+        <h1>使用しているサービス</h1>
         <div class="flex tys">
-          <div><h2>Github/Gist</h2><i class="fab fa-github-alt"></i><p>Github/Gistの機能を使用しコードを見やすくしています。</p></div>
+          <div><h2>Github/Gist</h2><i class="fab fa-github-alt"></i><p>Github/Gistの機能  を使用しコードを見やすくしています。</p></div>
           <div><h2>javascript/CSS3</h2><i class="fab fa-js-square"></i><p>CSS3やJavaScriptなどの機能を実験しています。</p></div>
           <div><h2>Book</h2><i class="fas fa-book"></i><p>本などで学んだことのアウトプット用です</p></div>
           <div><h2>website</h2><i class="fas fa-globe"></i><p>Webサイトで気になったコードなどを試しています。</p></div>
@@ -49,17 +81,17 @@
             <tr>
               <th>エリアグリッドサンプル</th>
               <td>説明文説明文説明文説明文説明文</td>
-              <td class="link"><a href="https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_area_base" target="_blank"><i class="far fa-file-alt"></i></a></td>
+              <td class="link"><a href="https://kobutori-sandbox.netlify.com/sandbox_css/grid_area_base" target="_blank"><i class="far fa-file-alt"></i></a></td>
             </tr>
             <tr>
                 <th>ライングリッドサンプル</th>
                 <td>説明文説明文説明文説明文説明文</td>
-                <td class="link"><a href="https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_line_base" target="_blank"><i class="far fa-file-alt"></i></a></td>
+                <td class="link"><a href="https://kobutori-sandbox.netlify.com/sandbox_css/grid_line_base" target="_blank"><i class="far fa-file-alt"></i></a></td>
             </tr>
             <tr>
                 <th>flexboxサンプル</th>
                 <td>説明文説明文説明文説明文説明文</td>
-                <td class="link"><a href="https://kobutori-sandbox.netlify.com/002_css-sandbox/grid_flexbox" target="_blank"><i class="far fa-file-alt"></i></a></td>
+                <td class="link"><a href="https://kobutori-sandbox.netlify.com/sandbox_css/grid_flexbox" target="_blank"><i class="far fa-file-alt"></i></a></td>
             </tr>
 
           </tbody>
@@ -77,12 +109,12 @@
                 <tr>
                   <th>IFrame Player APIサンプル</th>
                   <td>IFrame Player APIを使用してyoutubeの動画を背景に流します。</td>
-                  <td class="link"><a href="https://kobutori-sandbox.netlify.com/003_js-sandbox/jQuery_youtube_sample" target="_blank"><i class="far fa-file-alt"></i></a></td>
+                  <td class="link"><a href="https://kobutori-sandbox.netlify.com/sandbox_js/jQuery_youtube_sample" target="_blank"><i class="far fa-file-alt"></i></a></td>
                 </tr>
                 <tr>
                   <th>ドロワーメニューサンプル</th>
                   <td>ドロワーメニューサンプル</td>
-                  <td class="link"><a href="https://kobutori-sandbox.netlify.com/003_js-sandbox/jQuery__drawrmenu/" target="_blank"><i class="far fa-file-alt"></i></a></td>
+                  <td class="link"><a href="https://kobutori-sandbox.netlify.com/sandbox_js/jQuery_drawrmenu/" target="_blank"><i class="far fa-file-alt"></i></a></td>
                 </tr>    
               </tbody>
             </table>

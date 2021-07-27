@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "サンドボックス用リポジトリです。CSS/JSなどで試してみたくなったものを作ってみます。\r ポートフォリオ用にソース貯めていきます。",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.7"
   },
