@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#splash{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+/* Loading画面中央配置 */
+
+#splash_logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Loading アイコンの大きさ */
+#splash_logo img{
+    width: 40px;
+}

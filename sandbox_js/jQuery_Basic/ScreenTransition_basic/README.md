@@ -1,4 +1,5 @@
-# sandbox
+# 画面遷移
+
 ## 使用ライブラリ
 + [jQuery](https://jquery.com/)
 
