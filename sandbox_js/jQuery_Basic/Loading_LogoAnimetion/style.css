@@ -12,3 +12,34 @@
   text-align:center;
   color:#fff;
 }
+
+/* Loading画像中央配置 */
+#splash_logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* Lodingアイコンの大きさ設定 */
+#splash_logo img{
+  width: 240px;
+}
+
+.fadeup{
+  animation-name: fadeupAnime;
+  animation-duration: 0.5;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeupAnime{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
