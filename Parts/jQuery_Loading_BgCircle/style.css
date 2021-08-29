@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*========= ローディング画面のためのCSS ===============*/
+#splash {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: 9999999;
+  text-align:center;
+  color:#fff;
+}
+
+#splash_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body{
+  background-color: #333;
+}
+body.appear{
+  background: #e4e4d6;
+}
+
+/*========= 画面遷移のためのCSS ===============*/
+
+/*画面遷移アニメーション*/
+.splashbg{
+    display: none;
+    content: "";
+    position: fixed;
+    transform: scale(100);
+    background: #333;
+    z-index: 999;
+    /* 50%から円の半径を引いた値 */
+    top:calc(50% - 1rem);
+    /* 50%から円の半径を引いた値 */
+    left:calc(50% - 1rem);
+    width: 2rem;
+    height: 2rem;
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear .splashbg{
+  display:block;
+  border-radius: 50%;
+  animation-name: PageAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes PageAnime{
+  0% {
+    transform:scale(100);
+  }
+  100% {
+    transform: scale(0);
+    display: none;
+  }
+}
+
+/*画面遷移の後現れるコンテンツ設定*/
+.content_wrap{
+  opacity: 0;/*はじめは透過0に*/
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear .content_wrap{
+  animation-name:PageAnimeAppear;
+  animation-duration:1s;
+  animation-delay: 0.8s;
+  animation-fill-mode:forwards;
+  opacity: 0;
+}
+
+@keyframes PageAnimeAppear{
+  0% {
+  opacity: 0;
+  }
+  100% {
+  opacity: 1;
+}
+}
+
