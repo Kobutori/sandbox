@@ -4,7 +4,7 @@
   "description": "サンドボックス用リポジトリです。CSS/JSなどで試してみたくなったものを作ってみます。\r ポートフォリオ用にソース貯めていきます。",
   "main": "index.js",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
